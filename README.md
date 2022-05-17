@@ -1,4 +1,4 @@
-<img src="c:\users\l.makoti\OneDrive - THE COMMONWEALTH SECRETARIAT\Documents\United Nations Analysis Work\05_Fibit_Fitness_Tracker\Fibit Resources\Fitbit_logo.png" alt="Fitbit_logo" style="zoom:3%;" />
+![](https://upload.wikimedia.org/wikipedia/commons/e/e0/Fitbit_logo.svg)
 
 <p align="center">
  <a href="#overview">Overview</a> •
