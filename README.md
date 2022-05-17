@@ -1,4 +1,4 @@
-![](https://upload.wikimedia.org/wikipedia/commons/e/e0/Fitbit_logo.svg)
+<img src="Fibit Resources\Fitbit_logo.png" alt="Fitbit_logo" style="zoom:3%;" />
 
 <p align="center">
  <a href="#overview">Overview</a> •
