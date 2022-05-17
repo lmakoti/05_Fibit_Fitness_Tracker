@@ -1,4 +1,4 @@
-<img src="Fibit Resources\Fitbit_logo.png" alt="Fitbit_logo" style="zoom:3%;" />
+<p align="center"><img src="Fibit Resources\Fitbit_logo.png" alt="Fitbit_logo" style="height:50px"/></p>
 
 <p align="center">
  <a href="#overview">Overview</a> •
@@ -33,31 +33,29 @@ The data comes from two primary sources: my Charge 5 and  [Rephno Smart Body Fat
 
 1. **Fitbit Data**: Daily Distance from Activities
 
-   <img src="Fibit Resources\charge5-black-device-3qtr.png" alt="charge5-black-device-3qtr" style="zoom:20%;" />
+   <p align="center"><img src="Fibit Resources\charge5-black-device-3qtr.png" alt="charge5-black-device-3qtr" style="height:350px" /></p>
 
 2. **Rephno Data**: Daily Weight Measurement (Incl. BMI)
 
-   <img src="https://m.media-amazon.com/images/I/61JlA-7e7aL._AC_SL1500_.jpg" alt="RENPHO Body Fat Scale Bluetooth, Digital Body Weight Bathroom Scales  Weighing Scale Smart BMI Scales, Body Composition Monitors with Smartphone  App, Black : Amazon.co.uk: Health & Personal Care" style="zoom:15%;" />
+   <p align="center"><img src="https://m.media-amazon.com/images/I/61JlA-7e7aL._AC_SL1500_.jpg" alt="RENPHO Body Fat Scale Bluetooth, Digital Body Weight Bathroom Scales  Weighing Scale Smart BMI Scales, Body Composition Monitors with Smartphone  App, Black : Amazon.co.uk: Health & Personal Care" style="height:350px" /></p>
 
 ## Solution Architecture
 
 1. Link the Rephno scale to the Fitbit app, every measurement recorded in the app gets auto send to Fitbit
 
-   <img src="Fibit Resources\rephno-fitbit.jpeg" alt="rephno-fitbit" style="zoom:25%;" />
+   <p align="center"><img src="Fibit Resources\rephno-fitbit.jpeg" alt="rephno-fitbit" style="height:350px" /></p>
 
 2. The data is collected/tracked in the Fitbit app
 
-   <img src="Fibit Resources\fitbit_weight.jpeg" alt="fitbit_weight" style="zoom:25%;" />
+   <p align="center"><img src="Fibit Resources\fitbit_weight.jpeg" alt="fitbit_weight" style="height:350px" /></p>
 
 3. Export the data from the Fitbit web-based dashboard as a CSV (**NB: **Data can only be exported in batches of 31 days, this is a bit inconvenient but PowerBI handles merging multiple files with relative ease)
 
-   
-
-   <img src="Fibit Resources\image-20220517121903674.png" alt="image-20220517121903674" style="zoom:75%;" />
+   <p align="center"><img src="Fibit Resources\image-20220517121903674.png" alt="image-20220517121903674" style="height:350px" /></p>
 
 4. Export the CSV files into a single working directory which will be used as a `folder data source` in PowerBI
 
-<img src="Fibit Resources\image-20220517122106574.png" alt="image-20220517122106574" style="zoom:63%;" />
+  <p align="center"><img src="Fibit Resources\image-20220517122106574.png" alt="image-20220517122106574" style="height:350px" /></p>
 
 5. The Fitbit data comes in well formatted and easily usable, only a few transformation steps were performed on the data
    - Filter to `Activity` data only i.e. exclude information on `body, foods and sleep` as highlighted in step 3 **NB**: the data can be filtered at export (Step 3)
@@ -67,9 +65,7 @@ The data comes from two primary sources: my Charge 5 and  [Rephno Smart Body Fat
 
 
 6. Create Report to represent the tracker metrics under focus
-
-![image-20220517122804588](Fibit Resources\image-20220517122804588.png)
-
+<p align="center"><img src="Fibit Resources\image-20220517122804588.png" alt="image-20220517122106574" style="zoom:25%" /></p>
 
 
 ## Networking
@@ -78,11 +74,11 @@ Connecting and building networks is always part of our priorities, please reach 
 
 
 
-<img src="Fibit Resources\before_after.png" alt="before_after" style="zoom:43%;" />
+<p align="center"><img src="Fibit Resources\before_after.png" alt="before_after" style="height:350px" /></p>
 
 
 
-> **Lehlohonolo Makoti, Data Management and Analytics Specialist **
+> Lehlohonolo Makoti, Data Management and Analytics Specialist
 >
 > LinkedIn - https://www.linkedin.com/in/lehlohonolomakoti/
 
