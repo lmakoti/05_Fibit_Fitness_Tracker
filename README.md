@@ -64,7 +64,7 @@ The data comes from two primary sources: my Charge 5 and  [Rephno Smart Body Fat
 
 
 
-6. Create Report to represent the tracker metrics under focus
+6. Create Report to represent the tracker metrics under focus: <a href="https://app.powerbi.com/view?r=eyJrIjoiNjc4MTBiODctMmZmYi00YmY0LWJiYWUtZjljZWRiOGE2Nzg1IiwidCI6IjBhZGMyNjkxLThlNzAtNDNlZi05MTVjLWE5ZWZiMmIxMGY2YSJ9" target="_blank">View Report</a>
 <p align="center"><img src="Fibit Resources\image-20220517122804588.png" alt="image-20220517122106574" style="zoom:25%" /></p>
 
 
